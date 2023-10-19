@@ -44,3 +44,46 @@ footer {
     color: rgb(245, 245, 245);
     min-height: 100vh;
 }
+
+@media screen and (max-width: 1280px) {
+    body {
+        gap: 2rem;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        gap: 1.5rem;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        padding-left: 0.5rem;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+
+    h1 .city_title {
+        color: #000;
+        padding-left: 0.5rem;
+    }
+
+    input {
+        width: 90px;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+}
